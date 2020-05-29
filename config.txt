@@ -1,0 +1,23 @@
+# Configuration
+
+[config]
+player=xterm -fg grey -bg black -geometry 80x2 -fa "Monospace" -fs 11 -e mplayer
+ripper=xterm -fg grey -bg black -geometry 80x6 -fa "Monospace" -fs 11 -e streamripper 
+params=-d rips -u FreeAmp/2.x
+
+# The Streams
+# Streams follow the pattern [1]... [10]... [n]
+
+# Example 1
+# [1]
+# name=Station_1
+# description=Station_1 description
+# tags=News Charts 
+# url=streamurl_1
+
+# Example 2
+# [10]
+# name=Station_2
+# description=Station_2 description
+# tags=News Charts 
+# url=streamurl_2
